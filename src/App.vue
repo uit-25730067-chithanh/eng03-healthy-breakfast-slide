@@ -79,7 +79,7 @@ watch(currentStep, (newStep) => {
 
 const isFullscreenMode = ref(false);
 const GITHUB_ASSET_BASE_URL =
-  "https://uit-25730067-chithanh.github.io/uit-eng03-healthy-breakfast/";
+  "https://uit-25730067-chithanh.github.io/eng03-healthy-breakfast-slide/";
 const normalizeBaseUrl = (url: string) => (url.endsWith("/") ? url : `${url}/`);
 const baseUrl = normalizeBaseUrl(import.meta.env.BASE_URL);
 const shouldUseGithubAssetFallback =
